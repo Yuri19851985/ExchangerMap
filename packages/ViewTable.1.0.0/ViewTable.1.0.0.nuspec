@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ViewTable</id>
+    <version>1.0.0</version>
+    <title>View Table</title>
+    <authors>Garry Passarella</authors>
+    <owners>Garry Passarella</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A flexible general purpose component for use in MVC views for easily displaying tabulated data.</description>
+    <summary>A general flexible general purpose component for use in MVC views for easily displaying tabulated data.</summary>
+    <releaseNotes>Sample use
+
+In C#
+var table = new Table();
+table.AddColumn("FieldId");
+table.AddColumn("Value");
+table.AddRow("Row1", new object[] { 1, "Some string" });
+table.AddRow("Row2", new object[] { 2, 12345 });
+table.AddRow(3, new object[] { 2, 12345 });
+table.AddRow(4, new object[] { 2, 12345 });
+
+In Razor
+&lt;table&gt;
+&lt;thead&gt;
+    &lt;tr&gt;
+    @foreach(var heading in ViewModel.Table.ColumnMetaData) {
+        &lt;th&gt;@heading&lt;/th&gt;
+    }
+    &lt;/tr&gt;
+&lt;/thead&gt;
+
+@foreach(var row in ViewModel.Table.Rows) {
+    &lt;tr&gt;
+        &lt;td&gt;@row["FieldId"]&lt;/td&gt;
+        &lt;td&gt;@row["Value"]&lt;/td&gt;
+    &lt;/tr&gt;
+}
+&lt;/table&gt;
+
+That's it :-)</releaseNotes>
+    <copyright>MIT</copyright>
+  </metadata>
+</package>

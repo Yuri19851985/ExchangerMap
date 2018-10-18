@@ -1,0 +1,158 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Assembly.Software.DB
+</name>
+</assembly>
+<members>
+<member name="T:Assembly.Software.DB.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Assembly.Software.DB.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Assembly.Software.DB.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Assembly.Software.DB.Config">
+ <summary>
+ A class for reading the settings from the app.config file
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Assembly.Software.DB.Connection.#cctor">
+ <summary>
+ Default shared class constructor
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Assembly.Software.DB.Connection.OpenConnection">
+ <summary>
+ This method is used for opening a connection to the database, based on the local connection string
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Assembly.Software.DB.Connection.CloseConnection">
+ <summary>
+ This method is used for closing the database connection
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Assembly.Software.DB.Connection.GetConnection">
+ <summary>
+ This method is checking if an open connection is availible, if not, it trys to open and return an open connection
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Assembly.Software.DB.Connection.ConnectionString">
+ <summary>
+ This read only property returns the current connection string that has been extracted from the configuration file.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Assembly.Software.DB.DBHelper">
+ <summary>
+ This class contains a general functions for data handling agains a SQL
+ Server, this class will be used to run general operation like filling 
+ a dataset
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Assembly.Software.DB.DBHelper.FillDataSetFromSP(System.String,System.Data.SqlClient.SqlParameter[],System.Object[])">
+ <summary>
+ This function will fill a Dataset from a stored procedure
+ </summary>
+ <param name="SPName">The name of the stored procedure to run</param>
+ <param name="SPParameters">List of SQLParameters to provide to the SP</param>
+ <param name="SPValues">List of values (object type, allow all primitive types) to provide to the SP</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Assembly.Software.DB.DBHelper.RunSPRetParametrs(System.String,System.Data.SqlClient.SqlParameter[],System.Object[])">
+ <summary>
+ This is a general function to run a stored procedure and return it's OUTPUT parameter
+ </summary>
+ <param name="SPName">The name of the Stored procedure we wish to run</param>
+ <param name="SPParameters">The stored procudure SQL parameters array</param>
+ <param name="SPValues">The stored procedure values for the list of the parameters array</param>
+ <returns>The stored procedure output parameter</returns>
+ <remarks>This function is working against SQL Server ONLY</remarks>
+</member>
+<member name="M:Assembly.Software.DB.DBHelper.FillDatasetFromSQLText(System.String,System.Object[])">
+ <summary>
+ This is a general function to fill a dataset from the given SQL text
+ </summary>
+ <param name="SQL_Text">The SQL statement to run, this SQL can be embeded with parameters that will be replaced
+ with the values supplied in the SPValues object array</param>
+ <param name="SPValues">A list of replace values to be used to replace parameters in the SQL</param>
+ <returns>The SQL result set from the database in a dataset object</returns>
+ <remarks>The parameters specified in the SQL statement must be in in the following format: @x
+ where x is the index number of value we wish to replace in the SPValues object array.
+ The parameter can appear anywhere in the SQL statment and will be replaced at runtime.
+ The following is an example for a parameterized SQL statement:
+ Select * From dbo.Employee_Ta
+ Where intEmployeeID = @1
+ In case we supplied 1234 in the first index of the SPValues objects array, the SQL that will execute will be
+ Select * From dbo.Employee_Ta
+ Where intEmployeeID = 1234
+ </remarks>
+</member>
+<member name="M:Assembly.Software.DB.DBHelper.FillDataTableFromSQLText(System.String,System.Object[])">
+ <summary>
+ This is a general function to fill a dataset from the given SQL text
+ </summary>
+ <param name="SQL_Text">The SQL statement to run, this SQL can be embeded with parameters that will be replaced
+ with the values supplied in the SPValues object array</param>
+ <param name="SPValues">A list of replace values to be used to replace parameters in the SQL</param>
+ <returns>The SQL result set from the database in a datatable object</returns>
+ <remarks>The parameters specified in the SQL statement must be in in the following format: @x
+ where x is the index number of value we wish to replace in the SPValues object array.
+ The parameter can appear anywhere in the SQL statment and will be replaced at runtime.
+ The following is an example for a parameterized SQL statement:
+ Select * From dbo.Employee_Ta
+ Where intEmployeeID = @1
+ In case we supplied 1234 in the first index of the SPValues objects array, the SQL that will execute will be
+ Select * From dbo.Employee_Ta
+ Where intEmployeeID = 1234
+ </remarks>
+</member>
+<member name="M:Assembly.Software.DB.DBHelper.RunSPWithTransaction(System.String,System.Data.SqlClient.SqlParameter[],System.Object[])">
+ <summary>
+ This is a general function to run a stored procedure
+ </summary>
+ <param name="SPName">The name of the Stored procedure we wish to run</param>
+ <param name="SPParameters">The stored procudure SQL parameters array</param>
+ <param name="SPValues">The stored procedure values for the list of the parameters array</param>
+ <returns>The stored procedure output parameter</returns>
+ <remarks>This function is working against SQL Server ONLY</remarks>
+</member>
+<member name="M:Assembly.Software.DB.DBHelper.RunSPRetParametrsWithTransaction(System.String,System.Data.SqlClient.SqlParameter[],System.Object[])">
+ <summary>
+ This is a general function to run a stored procedure and return it's OUTPUT parameter
+ </summary>
+ <param name="SPName">The name of the Stored procedure we wish to run</param>
+ <param name="SPParameters">The stored procudure SQL parameters array</param>
+ <param name="SPValues">The stored procedure values for the list of the parameters array</param>
+ <returns>The stored procedure output parameter</returns>
+ <remarks>This function is working against SQL Server ONLY</remarks>
+</member>
+<member name="T:Assembly.Software.DB.clsHashEncrypt">
+ <summary>
+ A class for encript\decript a string based on a constant private
+ encryption key (see keys() and ivb())
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

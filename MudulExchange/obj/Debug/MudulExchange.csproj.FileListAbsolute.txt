@@ -1,0 +1,44 @@
+D:\Учеба\ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\MudulExchange.dll
+D:\Учеба\ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\MudulExchange.pdb
+D:\Учеба\ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\obj\Debug\MudulExchange.csprojResolveAssemblyReference.cache
+D:\Учеба\ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\obj\Debug\MudulExchange.dll
+D:\Учеба\ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\obj\Debug\MudulExchange.pdb
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\MudulExchange.dll.config
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\MudulExchange.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\MudulExchange.pdb
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\Assembly.Software.DB.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\EntityFramework.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\EntityFramework.SqlServer.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\EntityFramework.SqlServerCompact.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\SQL.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\ViewData.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\Assembly.Software.Profile.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\Assembly.Software.DB.xml
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\EntityFramework.xml
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\EntityFramework.SqlServer.xml
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\EntityFramework.SqlServerCompact.xml
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\Assembly.Software.Profile.xml
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\obj\Debug\MudulExchange.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\obj\Debug\MudulExchange.pdb
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\bin\Debug\System.Data.SqlServerCe.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap\MudulExchange\obj\Debug\MudulExchange.csproj.CoreCompileInputs.cache
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\MudulExchange.dll.config
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\MudulExchange.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\MudulExchange.pdb
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\Assembly.Software.DB.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\EntityFramework.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\EntityFramework.SqlServer.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\EntityFramework.SqlServerCompact.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\SQL.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\System.Data.SqlServerCe.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\ViewData.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\Assembly.Software.Profile.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\Assembly.Software.DB.xml
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\EntityFramework.xml
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\EntityFramework.SqlServer.xml
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\EntityFramework.SqlServerCompact.xml
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\bin\Debug\Assembly.Software.Profile.xml
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\obj\Debug\MudulExchange.csprojResolveAssemblyReference.cache
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\obj\Debug\MudulExchange.csproj.CoreCompileInputs.cache
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\obj\Debug\MudulExchange.dll
+D:\Учеба ITSTEP\Windows Forms\exam\ExchangerMap+++++\MudulExchange\obj\Debug\MudulExchange.pdb
