@@ -279,7 +279,7 @@ namespace ExchangerMap
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Разработчик: Юрий Жураковский \nВерсия 1.0 \nоктябрь 2018г.");
+            MessageBox.Show("Разработчик: Юрий Жураковский \nВерсия 1.0.0 \nоктябрь 2018г.");
         }
     }
 }
